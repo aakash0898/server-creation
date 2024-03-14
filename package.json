@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "aakash": "node server.js"
+    "aakash": "node server.js",
+    "dev": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/aakash0898/server-creation/issues"
   },
-  "homepage": "https://github.com/aakash0898/server-creation#readme"
+  "homepage": "https://github.com/aakash0898/server-creation#readme",
+  "dependencies": {
+    "nodemon": "^3.1.0"
+  }
 }
